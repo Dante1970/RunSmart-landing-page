@@ -7,10 +7,15 @@
 }
 
 .container {
-    max-width: 950px;
+    max-width: 970px;
     margin: 0 auto;
+    padding: 0 10px 0 10px;
 }
 
 @import "blocks/promo";
 @import "blocks/header.scss";
 @import "blocks/buttons";
+@import "blocks/title";
+@import "blocks/benefits";
+@import "blocks/consultation";
+@import "blocks/forms";
