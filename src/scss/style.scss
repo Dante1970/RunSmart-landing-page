@@ -1,6 +1,6 @@
-@import "base/fonts";
-@import "base/variables";
-@import "base/mixins";
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
 
 * {
     font-family: "MuseoSansCyrl";
@@ -12,10 +12,11 @@
     padding: 0 10px 0 10px;
 }
 
-@import "blocks/promo";
-@import "blocks/header.scss";
-@import "blocks/buttons";
-@import "blocks/title";
-@import "blocks/benefits";
-@import "blocks/consultation";
-@import "blocks/forms";
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/benefits';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
