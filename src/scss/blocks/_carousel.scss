@@ -4,6 +4,7 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        width: 100%;
     }
     .slick-prev, .slick-next {
         position: absolute;
@@ -16,5 +17,17 @@
     .slick-next {
         right: -67px;
         left: auto;
+    }
+
+    .slick-list {
+        width: 100%;
+        .slick-track {
+            width: 100%;
+            .slick-slide {
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 }
